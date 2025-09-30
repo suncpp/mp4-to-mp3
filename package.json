@@ -1,0 +1,24 @@
+{
+  "name": "m4a-to-mp3-converter",
+  "version": "1.0.0",
+  "description": "A Node.js tool to convert .m4a files to .mp3 format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "convert": "node index.js",
+    "batch": "node batch-convert.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "m4a",
+    "mp3",
+    "converter",
+    "audio"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
