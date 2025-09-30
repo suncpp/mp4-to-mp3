@@ -23,7 +23,7 @@ if (process.argv.length < 3) {
 const inputFile = process.argv[2];
 
 // 指定输出目录
-const outputDir = 'C:\\Users\\caopengpeng\\Desktop\\音乐';
+const outputDir = '指定文件目录';
 
 // 保证输出目录存在
 if (!fs.existsSync(outputDir)) {
@@ -79,3 +79,4 @@ ffmpeg(inputFile)
     }
   })
   .save(outputFile);
+
